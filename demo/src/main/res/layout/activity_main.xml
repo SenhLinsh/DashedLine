@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.linsh.dashedline.DashedCircleLine
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:dashColor="@color/colorPrimary"
+        app:dashGap="35dp"
+        app:dashWidth="2dp"
+        app:strokeWidth="20dp"/>
+
+    <com.linsh.dashedline.DashedLine
+        android:layout_width="80dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        app:dashColor="@color/colorPrimary"
+        app:dashGap="5dp"
+        app:dashOrientation="horizontal"
+        app:dashWidth="5dp"
+        app:strokeWidth="2dp"/>
+
+    <com.linsh.dashedline.DashedLine
+        android:layout_width="10dp"
+        android:layout_height="100dp"
+        app:dashColor="@color/colorPrimary"
+        app:dashGap="5dp"
+        app:dashOrientation="vertical"
+        app:dashWidth="5dp"/>
+
+    <com.linsh.dashedline.DashedCircleLine
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        app:dashColor="@color/colorPrimary"
+        app:dashGap="1dp"
+        app:dashWidth="2dp"
+        app:strokeWidth="1dp"/>
+
+</LinearLayout>
