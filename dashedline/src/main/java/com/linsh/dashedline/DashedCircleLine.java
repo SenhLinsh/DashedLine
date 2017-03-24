@@ -54,7 +54,7 @@ public class DashedCircleLine extends BaseDashedLine {
         mRectF.left = (width - min) / 2f + strokeOffset;
         mRectF.bottom = (height + min) / 2f - strokeOffset;
         mRectF.right = (width + min) / 2f - strokeOffset;
-        canvas.drawOval(mRectF, mPaint);
+        canvas.drawOval(mRectF, paint);
     }
 
     @Override
