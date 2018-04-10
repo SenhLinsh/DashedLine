@@ -89,6 +89,23 @@ XML代码:
 </LinearLayout>
 ```
 
+## 添加依赖
+1. 在项目根目录的build.gradle中添加自定义仓库
+```
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+2. 在module里面添加依赖
+```
+dependencies {
+    compile 'com.github.SenhLinsh:LshUtils:1.2.0'
+}
+ ```
+
 ## 使用方法
 
 |attr属性          |  说明
